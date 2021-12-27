@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+  flex-basis: 40%;
+  background-color: #ddd;
+  box-shadow: 0 0 2px 1px gray;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.form__title {
+  flex-basis: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form__input {
+  padding: 10px 20px;
+  font-size: 16px;
+  flex-basis: 40%;
+  margin: 15px 0;
+}
+
+.form__button {
+  margin: 30px 0;
+  padding: 10px 20px;
+  border: 2px solid black;
+  background-color: #fff;
+  text-transform: uppercase;
+  flex-basis: 60%;
+  cursor: pointer;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.result__number-info {
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.result__element-description {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.result, .content, .footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 2px 1px #ddd;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHVCQUF1QjtBQ0MzQjs7QURFRTtFQUNFLGFBQWE7RUFDYiw2QkFBNkI7QUNDakM7O0FERUU7RUFDRSxhQUFhO0VBQ2IsZUFBZTtFQUNmLDZCQUE2QjtFQUM3Qiw0QkFBNEI7RUFDNUIsZUFBZTtFQUNmLHNCQUFzQjtFQUN0Qiw0QkFBNEI7RUFDNUIsY0FBYztFQUNkLGFBQWE7QUNDakI7O0FERUU7RUFDRSxnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQixtQkFBbUI7QUNDdkI7O0FEQ0U7RUFDRSxrQkFBa0I7RUFDbEIsZUFBZTtFQUNmLGVBQWU7RUFDZixjQUFjO0FDRWxCOztBREFFO0VBQ0UsY0FBYztFQUNkLGtCQUFrQjtFQUNsQix1QkFBdUI7RUFDdkIsc0JBQXNCO0VBQ3RCLHlCQUF5QjtFQUN6QixlQUFlO0VBQ2YsZUFBZTtBQ0duQjs7QURERTtFQUNFLGFBQWE7RUFDYixxQ0FBcUM7RUFDckMsU0FBUztBQ0liOztBRERFO0VBQ0UsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQ0l0Qjs7QURGRTtFQUNFLHFCQUFxQjtFQUNyQixhQUFhO0FDS2pCOztBREZFO0VBQ0UsaUJBQWlCO0VBQ2pCLGNBQWM7QUNLbEI7O0FERkU7RUFDRSxnQkFBZ0I7RUFDaEIsbUJBQW1CO0VBQ25CLDRCQUE0QjtBQ0toQzs7QURIRTtFQUNFLHNCQUFzQjtFQUN0QixZQUFZO0VBQ1osWUFBWTtFQUNaLGFBQWE7RUFDYix1QkFBdUI7RUFDdkIsbUJBQW1CO0FDTXZCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
